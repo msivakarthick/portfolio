@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.container{
+    display: grid;
+    padding:20px;
+    /* grid-template-columns:auto auto auto auto; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap:20px 30px;
+    width:96%;
+}
+.box{
+    width:100%;
+    min-height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-width: 10px; 
+    border-style: double; 
+    border-color: pink;
+    border-radius: 10px;
+    flex-wrap:wrap;
+}
+
+img{
+    height:200px;
+    width:200px;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+}
+.text{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns:auto auto;
+    align-items: center;
+}
+p{
+    height:120px;
+    font-size: 15px;
+    text-align: center;
+    padding:20px;
+    color:white;
+    border-bottom-left-radius: 2px;
+}
+.text>p{
+    height:0px;
+    color:black;
+    margin-bottom:10px;
+}
+.box1 > p{
+
+    background-color: rgba(255, 8, 0, 0.867);
+}
+.box2 > p{
+
+    background-color: orange;
+}
+.box3 > p{
+
+    background-color: rgba(212, 16, 111, 0.637);
+}
+.box4 > p{
+    background-color: rgb(65, 7, 75);
+}
+.box5 > p{
+
+    background-color: rgb(34, 171, 34);
+}
+
+.box6 > p{
+   
+    background-color: rgb(215, 160, 19);
+}
+.box7 > p{
+
+    background-color: orange;
+}
+.box8 > p{
+
+    background-color: rgb(188, 40, 40)
+}
+.box9 > p{
+
+    background-color: rgb(233, 50, 9);
+}
+.box10 > p{
+
+    background-color: rgb(65, 111, 13);
+
+}
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .container{
+         /* grid-template-columns:auto  ; *//
+    }
+    .box{
+        width:100;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px) {
+    .container{
+         /* grid-template-columns:auto auto auto ; */
+         
+    }
+    .box{
+        width:100%;
+    }
+    p{
+        height:150px;
+    }
+}

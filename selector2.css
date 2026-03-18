@@ -1,0 +1,37 @@
+div{
+    width: 100%;
+}
+.dog{
+    width:25%;
+    background-color:orange;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    float:left;
+    margin-right:20px;
+    margin-left: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding:5px;
+    border:2px dashed black;
+}
+.cat{
+    width:25%;
+    background-color:red;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    float:left;
+    margin-right:20px;
+}
+.fish{
+    width:25%;
+    background-color:rgb(67, 67, 205);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    float:left;
+}

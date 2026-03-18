@@ -1,0 +1,34 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+/* h1{
+    background-color: red;
+    display:inline;
+}
+span{
+    display:block;
+    /background-color: purple;
+} */
+div p:first-child span{
+    background-color: red;
+    /* display: inline; */
+    /* height:300px;
+    width:300px; */
+    opacity: 0;
+}
+div p:nth-child(2) span{
+    background-color: purple;
+    /* display: inline-block; */
+    /* height:300px;
+    width:300px; */
+    display: none;
+}
+;div p:last-child span{
+    background-color: orange;
+    /* display: block; */
+    /* height:300px;
+    width:300px; */
+    visibility: hidden;
+}

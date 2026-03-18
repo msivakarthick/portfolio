@@ -1,0 +1,91 @@
+.fs-1{
+    font-size: 100px ! important;
+}
+.fs-2{
+    font-size: 50px !important;
+}
+.fs-3{
+    font-size: 30px !important;
+    text-align: center;
+}
+.border{
+    border:none !important;
+}
+.border-secondary{
+    border: 1px solid lightgray !important;
+}
+.rounded-end{
+    border-bottom-left-radius: 60px !important;
+    border-top-left-radius: 60px !important;
+}
+.bg-success{
+    background-image: url("gif.gif") !important;
+}
+.start-50{
+    left: 802px !important;
+}
+.top-0{
+    top:-10px !important;
+}
+.marquee-text{
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+}
+.hover:fa-arrow-right{
+    animation: arrow 5s linear infinite;
+}
+@keyframes arrow {
+      from {
+        transform: translateY(0%);
+      }
+      to {
+        transform: translateY(100%);
+      }
+}
+.nav-item:hover{
+    background-color: aqua;
+    border-radius: 20px;
+    border-bottom:5px solid black;
+    transform: scale(1);
+}
+.fs-6{
+    font-size: 40px !important;
+}
+.fs-5{
+    font-size: 20px !important;
+}
+.w-100{
+    width: 1000px !important;
+}
+.end-0{
+    right:0px !important;
+}
+.top-25{
+    top: 0px !important;
+}
+.ring{
+    display:none;
+}
+.hello:hover .ring{
+    display: block;
+}
+.ring:hover .hover{
+    display: hidden;
+}
+.border-bottom{
+    border-bottom-left-radius: 150px !important;
+    border-bottom-right-radius: 150px !important;
+}
+.w-25{
+    width:250px !important;
+}
+.top-100{
+    top:250px !important;
+}

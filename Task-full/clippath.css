@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    position: relative;
+    clip-path: polygon(
+  0% 0%, 
+  100% 0%, 
+  100% 95%, 
+  0% 95%
+);
+
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgreen;
+    color: white;
+}
+.agri{
+    display: flex;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.orange{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.box1{
+    display: flex;
+    background-color: green;
+    color: white;
+    height: 450px;
+}
+.inner{
+    width:50%;
+    padding: 50px;
+    padding-left: 100px;
+}
+.green{
+    width: 50%;
+    border-top-left-radius: 10px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 50px;
+}
+i{
+    padding-top: 10px;
+}
+.position{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top:50%;
+    left:40%;
+}
+.clip{
+    display: flex;
+    padding: 40px;
+}
+.men{
+    Height:400px;
+    Width:500px;
+    clip-path: path("M 20,0 L300,0 A 20,20 0,0,1 300,20 L 480,20 A 20,20 0,0,1  500,40 L 500,300 A 20,20 0,0,1 480,320 L 380,320 L 380,380 A 20,20 0,0,1 360,400 L 20,400 A 20,20 0,0,1 0,380 L 0,20 A 20,20 0,0,1 20,0 Z");
+}
+.Service{
+    width:50%;
+    padding: 40px;
+}
+.con{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.con1{
+    width:25%;
+}
+h4{
+    color: orange;
+}
+.con1 img{
+    width:100%;
+    border-radius: 10px;
+}
+.men{
+    border-radius: 10px;
+}
+.Follow{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.images{
+    display: flex;
+    width:100%;
+    padding: 30px;
+}
+.pic{
+    width:30%;
+    margin-left: 20px;
+}
+.pic1 img{
+    width:100%;
+    height:400px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.pic2 img{
+    width:100%;
+    height:300px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+.pic3 img{
+    width:100%;
+    height:450px;
+    border-radius: 20px;
+}
+.text{
+    width:25%;
+    padding: 20px;
+    margin-top: 45px;
+}
+.one{
+    display: flex;
+    /* width:25%; */
+}
+.one i{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.two i{
+    margin-top: 0px;
+}
+.mid{
+    display: flex;
+}
+.test{
+    width:50%;
+    padding: 50px;
+}
+.input1{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.input2{
+    width:70%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.border{
+    width:50%;
+    padding: 50px;
+}
+.width{
+    padding: 10px 30px;
+}
+.border img{
+    width:100%;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: gray;
+}
+.icon{
+    display: flex;
+    position: relative;
+}
+.icon input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.l1{
+    width:30%;
+}
+.form{
+    width:30%;
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width:50px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    background-color: orange;
+    color: white;
+    position: absolute;
+    right:0px;
+}
+.form img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+li{
+    margin-top: 10px;
+}
+@media only screen and (min-width:600px) and (max-width:900px) {
+    .box1{
+        position: relative;
+    }
+    .green img{
+        position: absolute;
+        top: 400px;
+    }
+}

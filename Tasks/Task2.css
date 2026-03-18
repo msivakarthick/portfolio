@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.overall{
+    height:100vh;
+    width:100%;
+    display:flex;
+    overflow:hidden;
+    position:relative;
+}
+img{
+    position:absolute;
+    top:40%;
+    left:35%;
+    animation-name:car;
+    animation-duration:2s;
+    animation-iteration-count:1;
+
+}
+.blue{
+    height:100vh;
+    width:50%;
+    background-color: orangered;
+    animation-name: bluediv;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    transition-delay:1s;
+}
+.black{
+    height:100vh;
+    width:50%;
+    background-color: gray;
+    animation-name: blackdiv;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    transition-delay:1s;
+}
+.r{
+   animation-name:fl;
+   animation-duration: 2s;
+   animation-delay:2s; 
+   animation-iteration-count: 1;
+   opacity:0;
+   animation-fill-mode:forwards;
+}
+.a{
+    animation-name:sl;
+   animation-duration: 2s;
+   animation-delay:3s; 
+   animation-iteration-count: 1;
+   opacity:0;
+   animation-fill-mode:forwards;
+}
+.c{
+    animation-name:tl;
+   animation-duration: 2s;
+   animation-delay:4s; 
+   animation-iteration-count: 1;
+   opacity:0;
+   animation-fill-mode:forwards;
+}
+.e{
+    animation-name:ttl;
+   animation-duration: 2s;
+   animation-delay:5s; 
+   animation-iteration-count: 1;
+   opacity:0;
+   animation-fill-mode:forwards;
+}
+h3{
+    position:absolute;
+    top:100px;
+    left:500px;
+    color:transparent;
+    font-size:40px;
+    -webkit-text-stroke:1px white;
+
+}
+.race{
+    font-size:100px;
+    position:absolute;
+    top:140px;
+    left:500px;
+    color:white;
+    margin:5px;
+    display:flex;
+    
+}
+img{
+    height:300px;
+    width:500px;
+}
+@keyframes fl{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+      }
+}
+@keyframes sl{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+      }
+}
+@keyframes tl{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+      }
+}
+@keyframes ttl{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+      }
+}
+
+
+@keyframes car{
+    from{
+        transform:translateX(800px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+@keyframes bluediv{
+    from{
+        transform: translateY(700px);
+    }
+    to{
+        transform:translateY(0px);
+    }
+}
+@keyframes blackdiv{
+    from{
+        transform:translateY(-700px);
+    }
+    to{
+        transform:translateY(0px);
+    }
+}

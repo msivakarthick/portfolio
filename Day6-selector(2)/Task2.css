@@ -1,0 +1,53 @@
+.all{
+    width:100%;
+}
+.maya{
+    width:20%;
+    padding:20px;
+    text-align: center;
+    border: 3px double red;
+    float:left;
+    margin-right:20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid grey;
+}
+.name{
+    border-bottom: 5px solid black;
+    width:20%;
+    margin: auto;
+}
+.maya:hover{
+    border: 3px dashed red;
+}
+.maya:hover img{
+    border:5px solid black;
+}c5fr 
+.maya1{
+    margin-left: 20px;
+}
+.twit{
+    color:black;
+    font-size: 20px;
+}
+.face{
+    color:blue;
+    margin-left:10px;
+    font-size: 20px;
+}
+.insta{
+    color:rgb(208, 23, 146);
+    margin-left:10px;
+    font-size: 20px;
+}
+.link{
+    color:blue;
+    margin-left:10px;
+    font-size: 20px;
+}
+.icon{
+    margin:auto;
+}

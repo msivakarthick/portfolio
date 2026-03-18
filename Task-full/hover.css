@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height:400px;
+    width:50%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+}
+img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+}
+.hover{
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-name: hover;
+    animation-duration: 2s;
+    background-color: white;
+    width:100%;
+    height:300px;
+    display: none;
+    position: absolute;
+    transform: translateY(300px);
+    transition: all 1s ease;
+    margin-top: 70px;
+}
+input{
+    width:40%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+button{
+    background-color: purple;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+ @keyframes hover {
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0px);
+    } 
+ }  
+ .container:hover .hover{
+        transform: translateY(0px);
+        display: flex;
+        transition: all 3s ease;
+ } 
+ /* .hover {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    transform: translateY(300px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container:hover .hover {
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+}*/
+button:hover{
+    background-color: rgb(91, 36, 91);
+} 
